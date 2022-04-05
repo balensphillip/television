@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+main {
+	min-height: 80vh;
+	max-height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.tel-wrapper {
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+.tel-div {
+	width: 100%;
+	height: 80%;
+	background-color: rgb(17, 68, 99);
+	border: 10px solid black;
+	border-radius: 10px;
+}
+
+.tel-div > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.lower-tv-section {
+	width: 37%;
+	height: 15%;
+	background-color: black;
+	color: white;
+	border-bottom-left-radius: 5px;
+}
+
+.lower-tv-section > p {
+	text-align: center;
+}
+
+.controls {
+	display: flex;
+	background-color: black;
+	width: 100%;
+	padding: 10px 10px 10px 20px;
+}
+
+button {
+	background-color: rgb(40, 72, 108);
+	color: white;
+	padding: 5px;
+	border: 2px solid rgb(40, 72, 108);
+	border-radius: 50%;
+	cursor: pointer;
+
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+}
+
+button:hover {
+	background-color: black;
+}
